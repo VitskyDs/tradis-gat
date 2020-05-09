@@ -1,0 +1,77 @@
+/* Body */
+
+body {
+  font-family: Assisstant, Helvetica, sans-serif;
+}
+
+/* Typography */
+
+.siteforceThemeLayoutStarter {
+  font-size: 1rem;
+}
+
+/* Navbar */
+/* .hero {
+  height: 80px;
+} */
+.themeHeader {
+  padding: 0;
+  height: 80px;
+}
+
+.themeHeaderInner {
+  width: 100%;
+  padding: 8px 16px;
+  min-height: 80px;
+}
+
+.forceCommunityThemeHeaderCompact .themeNav {
+  flex-grow: 0;
+  flex-basis: auto;
+}
+
+.themeBottomBorder {
+  background-color: #E6E6E6;
+}
+
+.themeLogo {
+  margin: 0 0 0 24px;
+}
+
+.mainNavItem {
+    padding-left: 40px;
+}
+
+.mainNavItem .linkBtn {
+  color: #1F2128;
+  text-shadow: none;
+  font-weight: 600;
+}
+
+.mainNavItem .linkBtn:hover {
+  color: #1F2128;
+
+}
+
+/* Logo */
+.logoimage {
+  width: 112px;
+  height: 48px;
+}
+
+/* user avatar */
+.forceCommunityThemeHeaderCompact .themeUtils {
+  padding: 0;
+  margin-right: auto;
+}
+
+.profile-menuTrigger {
+  flex-direction: row-reverse;
+  color: #1F2128;
+  text-shadow: none;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+}
