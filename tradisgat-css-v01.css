@@ -191,6 +191,10 @@ div.header {
   line-height: 24px;
 }
 
+.button-small {
+  height: 32px;
+}
+
 /* New Order Wizard Modal*/
 .modal-container {
   background: #FFFFFF;
