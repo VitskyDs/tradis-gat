@@ -1,19 +1,93 @@
-/* Body */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap');
 
+/* Body */
 body {
-  font-family: Assisstant, Helvetica, sans-serif;
+  font-family: 'Assistant', Helvetica, sans-serif;
+  color: #1A1A1A;
+  background: #F7F8FA;
 }
 
 /* Typography */
-
 .siteforceThemeLayoutStarter {
   font-size: 1rem;
 }
 
+h1 {
+  font-family: Assistant-Regular;
+  font-size: 36px;
+  color: #1F2128;
+  letter-spacing: 0;
+  text-align: right;
+  line-height: 40px;
+}
+
+h2 {
+  font-family: Assistant-SemiBold;
+  font-size: 26px;
+  color: #1F2128;
+  letter-spacing: 0;
+  text-align: right;
+  line-height: 32px;
+}
+
+h3 {
+  font-family: Assistant-SemiBold;
+  font-size: 20px;
+  color: #1F2128;
+  letter-spacing: 0;
+  text-align: right;
+  line-height: 32px;
+}
+
+p {
+  font-family: Assistant-SemiBold;
+  font-size: 16px;
+  color: #1A1A1A;
+  letter-spacing: 0;
+  text-align: right;
+  line-height: 24px;
+}
+
+small {
+  font-family: Assistant-SemiBold;
+  font-size: 14px;
+  color: #1A1A1A;
+  letter-spacing: 0;
+  text-align: right;
+  line-height: 24px;
+}
+
+.price-tag {
+  font-family: Assistant-Regular;
+  font-size: 24px;
+  letter-spacing: 0;
+  text-align: right;
+  line-height: 32px;
+}
+
+/* typography utilities */
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.muted {
+  color: #909090;
+}
+
 /* Navbar */
-/* .hero {
-  height: 80px;
-} */
+.hero {
+  display: none;
+}
+
+div.header {
+  position: relative;
+  background: white;
+}
+
 .themeHeader {
   padding: 0;
   height: 80px;
@@ -21,7 +95,7 @@ body {
 
 .themeHeaderInner {
   width: 100%;
-  padding: 8px 16px;
+  padding: .5rem 1rem;
   min-height: 80px;
 }
 
@@ -35,11 +109,11 @@ body {
 }
 
 .themeLogo {
-  margin: 0 0 0 24px;
+  margin: 0 0 0 24px !important;
 }
 
 .mainNavItem {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 .mainNavItem .linkBtn {
@@ -50,16 +124,15 @@ body {
 
 .mainNavItem .linkBtn:hover {
   color: #1F2128;
-
 }
 
-/* Logo */
-.logoimage {
+/* Navbar: Logo */
+.logoImage {
   width: 112px;
   height: 48px;
 }
 
-/* user avatar */
+/* Navbar: user avatar */
 .forceCommunityThemeHeaderCompact .themeUtils {
   padding: 0;
   margin-right: auto;
@@ -72,6 +145,59 @@ body {
 }
 
 .profile-icon {
-  width: 40px;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+/* Div */
+.siteforceContentArea .comm-layout-column:not(:empty) {
+  padding: 1rem;
+  background: #FFFFFF;
+  border: 1px solid #DBDEE2;
+  border-radius: 4px;
+}
+
+/* Buttons */
+/* Primary button */
+.slds-button .slds-button_brand {
   height: 40px;
+  min-width: 136px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  background: #194C9E;
+  border: none;
+}
+
+/* Secondary button */
+.slds-button .slds-button--neutral {
+  background: #FFFFFF;
+  border: 1px solid #194C9E;
+  border-radius: 4px;
+  font-family: Assistant-SemiBold;
+  font-size: 16px;
+  color: #194C9E;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+}
+
+/* New Order Wizard Modal*/
+.modal-container {
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(48, 49, 51, 0.20);
+}
+
+.order-wizard-header {
+  padding: 20px 24px;
+  border-radius: 8px 8px 0 0;
+  background: #F0F4FA;
+}
+
+.order-wizard-summary {
+  border-top: 2px solid #E6E6E6;
+  background: #F7F8FA;
+  border-radius: 0 0 8px 8px;
+  padding: 24px;
 }
