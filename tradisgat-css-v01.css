@@ -74,6 +74,14 @@ small {
   font-weight: 700;
 }
 
+.large {
+  font-size: 18px;
+}
+
+.primary-color {
+  color: #194C9E;
+}
+
 .muted {
   color: #909090;
 }
